@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680">
+      <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2878bb" stop-opacity=".12"/><stop offset="1" stop-color="#ffffff" stop-opacity=".4"/></linearGradient></defs>
+      <rect width="1200" height="680" fill="url(#g)"/>
+      <text x="70" y="62" font-family="monospace" font-size="14" fill="#64748b">AKHILESH AHER / PROJECT PREVIEW</text>
+      
+        <rect x="70" y="110" width="1060" height="510" rx="22" fill="#ffffff"/>
+        <rect x="70" y="110" width="1060" height="62" rx="22" fill="#f1f5f9"/>
+        <circle cx="100" cy="141" r="7" fill="#94a3b8"/><circle cx="124" cy="141" r="7" fill="#94a3b8"/><circle cx="148" cy="141" r="7" fill="#94a3b8"/>
+        <rect x="200" y="132" width="620" height="18" rx="9" fill="#dbe3eb"/>
+        <rect x="120" y="215" width="430" height="38" rx="12" fill="#2878bb" opacity=".12"/>
+        <text x="120" y="244" font-family="Arial" font-size="34" font-weight="700" fill="#142033">InstantCart</text>
+        <text x="120" y="285" font-family="Arial" font-size="17" fill="#64748b">E-commerce dashboard · products · orders · payments</text>
+        <rect x="120" y="320" width="270" height="150" rx="18" fill="#2878bb" opacity=".13"/>
+        <rect x="415" y="320" width="270" height="150" rx="18" fill="#eef2f7"/>
+        <rect x="710" y="320" width="270" height="150" rx="18" fill="#eef2f7"/>
+        <rect x="120" y="500" width="860" height="12" rx="6" fill="#e2e8f0"/>
+        
+    </svg>
