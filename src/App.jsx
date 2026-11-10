@@ -4,6 +4,7 @@ import GearPage from "./pages/Gear";
 import NotFoundPage from "./pages/NotFound";
 import { useEffect, useState } from "react";
 import Loader from "./components/Loader";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
 
@@ -18,10 +19,13 @@ export default function App() {
   if (loading) return <Loader />;
 
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/gear" element={<GearPage />} />
-      <Route path="*" element={<NotFoundPage />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/gear" element={<GearPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+      <Analytics />
+    </>
   );
 }
