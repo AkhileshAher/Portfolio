@@ -36,7 +36,7 @@ export default function Navbar({ onContact }) {
       <nav className="mx-auto flex h-[68px] max-w-[1500px] items-center gap-4">
 
         <a href="#home" onClick={() => handleNavClick("home")} className="shrink-0">
-          <img src={logo} alt="Akhilesh Aher" className="h-15 w-auto object-contain sm:hover:scale-150 sm:hover:duration-1000" />
+          <img src={logo} alt="Akhilesh Aher" className="h-20 w-auto object-contain sm:hover:scale-120 sm:hover:duration-1000" />
         </a>
 
         <div className="hidden flex-1 justify-center lg:flex">

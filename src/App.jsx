@@ -12,7 +12,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); return () => clearTimeout(timer);
+    }, 1500); return () => clearTimeout(timer);
   }, []);
 
   if (loading) return <Loader />;
